@@ -1,0 +1,137 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa; /* Світло-сірий фон для зручності читання */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+img {
+    width: 70%; /* Зменшено розмір зображення */
+    max-width: 800px; /* Максимальна ширина для адаптивності */
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #333; /* Додано рамку */
+    border-radius: 8px; /* Трохи закруглені кути рамки */
+    padding: 10px; /* Відступ між зображенням і рамкою */
+    background-color: #fff; /* Фон рамки для виділення */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Додана легка тінь */
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%; /* Робить таблицю адаптивною */
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 12px; /* Більше відступів для зручності читання */
+}
+
+table tr th {
+    background: #b6c1ff;
+    color: #000;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase; /* Всі літери заголовків великими */
+}
+
+table tr:hover td {
+    background: #edf1ff; /* Виділення рядка при наведенні */
+}
+
+li {
+    margin: 16px;
+    list-style: none;
+}
+
+img {
+    width: 80%;
+    max-width: 1000px; /* Адаптивність для менших екранів */
+    margin: 20px auto;
+    display: block;
+}
+
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.3s ease; /* Плавний перехід кольорів */
+}
+
+a:hover {
+    background-color: #edf1ff;
+    color: #000;
+    transform: scale(1.05); /* Легке збільшення при наведенні */
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    width: calc(100% - 40px); /* Адаптивна ширина */
+    max-width: 300px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin: 10px 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+input[type='submit'] {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background: rgb(185, 210, 248);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Плавний перехід */
+}
+
+input[type='submit']:hover {
+    background-color: #7e9ff7;
+    color: #fff; /* Зміна кольору тексту при наведенні */
+}
+
+form {
+    width: 100%;
+    max-width: 500px; /* Обмеження ширини форми */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background: rgb(185, 210, 248);
+    border-radius: 12px; /* Закруглені кути */
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    margin: 20px auto;
+    align-items: center;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #b6c1ff;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
